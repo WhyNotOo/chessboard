@@ -16,6 +16,9 @@ It includes :
 - React DND for the drag&drop to allow pawn to move
 - MobX to keep the board state
 - PropTypes to add types to our components
+- Notistack to display feedback snackbar
+
+Visible at https://codesandbox.io/s/kevin-albessard-chessboard-rispd
 
 
 ## Available Scripts
