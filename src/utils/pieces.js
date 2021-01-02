@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react';
+import React, { lazy, Suspense } from 'react';
 
 const Piece = lazy(() => import('components/_commons/Piece/Piece'));
 

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo } from 'react';
+import React, { useCallback, useEffect, useMemo } from 'react';
 import styled from 'styled-components';
 import { useSnackbar } from 'notistack';
 import {Chessboard as ChessboardService} from 'services';

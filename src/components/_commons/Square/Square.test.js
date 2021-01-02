@@ -1,3 +1,4 @@
+import React from 'react';
 import { render } from '@testing-library/react';
 import { Piece } from 'components';
 import { DndProvider } from 'react-dnd'

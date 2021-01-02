@@ -1,3 +1,4 @@
+import React from 'react';
 import { observer } from 'mobx-react';
 import { DragPreviewImage, useDrag } from 'react-dnd';
 import styled from 'styled-components';
@@ -21,7 +22,7 @@ const Piece = ({ piece, color, chessboardGame, x, y }) => {
     begin: () => chessboardGame.setPieceMoved([x, y], color)
   });
 
-  const imgSrc = `/images/${color}/${piece}.png`;
+  const imgSrc = `/images/${color}/${piece.toLowerCase()}.png`;
   
   return (
     <StyledPiece ref={drag} color={color}>
