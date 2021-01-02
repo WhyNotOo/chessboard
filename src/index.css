@@ -1,0 +1,6 @@
+@import 'assets/styles/_variables.css';
+@import 'assets/styles/_fonts.css';
+
+body {
+  font-family: 'Arial', sans-serif;
+}

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'QueensGambit';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('The Queens Gambit Regular'), url('../fonts/ThequeensgambitRegular.woff') format('woff');
+}

@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #3f51b5;
+
+  --success-color: #17833b;
+  --error-color: #8f1e1e;
+  --warning-color: #dfdf02;
+
+  --square-white: #bebebe;
+  --square-black: #575757;
+}
